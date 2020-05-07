@@ -1,5 +1,4 @@
 ---
-featured: true
 title: "Projects"
 layout: splash
 permalink: /projects/
