@@ -1,6 +1,6 @@
 ---
 featured: true
-layout: default
+layout: single
 title: "Lorem Ipsum"
 permalink: /lorem-ipsum/
 description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."

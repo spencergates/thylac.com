@@ -1,6 +1,6 @@
 ---
 featured: true
-layout: default
+layout: single
 title: "Color Shredder"
 permalink: /color-shredder/
 description: "Tie-Dye Pixel Art Generation and Acceleration."
