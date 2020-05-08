@@ -8,7 +8,7 @@ description: "Tie-Dye Pixel Art Generation and Acceleration."
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/d500-q2-c8-opencl-multi.png
+  overlay_image: /assets/images/color-shredder-banner-1.png
 
 excerpt: "Tie-dye pixel art from the Color Shredder."
 
