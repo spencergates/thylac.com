@@ -15,9 +15,6 @@ intro:
 
 ---
 
-
-
-
 {% for post in site.pages %}
   {% if post.featured %}
   <h1>{{post.description}}</h1>
