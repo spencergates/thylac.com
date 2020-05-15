@@ -25,9 +25,9 @@ feature_row1:
 
 {% include feature_row id="feature_row1" type="left" %}
 
-<a href="https://github.com/HBot106/simple-pbr-raytracer" class="btn btn--primary btn--x-large">View the code on Github.</a>
+<a href="https://github.com/HBot106/simple-pbr-raytracer" class="btn btn--success btn--x-large">Download Source</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g28PMC0zV9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video id="g28PMC0zV9s" provider="youtube" %}
 
 ![pbr1](/assets/media/raytracer/pbr-1.png)
 
