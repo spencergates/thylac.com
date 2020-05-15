@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Henry Luengas"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/media/bio/bio-photo.jpg"
   bio    : "I'm a computer science student at Cal Poly San Luis Obispo, graduating 2020."
   links:
     - label:  "GitHub"

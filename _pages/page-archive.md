@@ -5,7 +5,7 @@ permalink: /projects/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/d500-q2-c8-opencl-multi.png
+  overlay_image: /assets/media/color-shredder/d500-q2-c8-opencl-multi.png
   actions:
     - label: "See the Color Shredder"
       url: "/color-shredder/"
