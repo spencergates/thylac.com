@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 layout: splash
 title: "Fortnite Disco"
 permalink: /fortnite-disco/
