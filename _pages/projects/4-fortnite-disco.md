@@ -1,5 +1,5 @@
 ---
-featured: false
+featured: true
 layout: splash
 title: "Fortnite Disco"
 permalink: /fortnite-disco/
@@ -14,41 +14,32 @@ excerpt: "Three small OpenGL animation projects.
 
 >Created by: Henry Luengas"
 
-feature_row1:
-  - image_path: /assets/media/fortnite-disco/facial-animation.gif
+video_row1:
+  - video_path: /assets/media/fortnite-disco/tie-fighter.webm
     alt: "Part 1"
-    title: "Part 1"
-    excerpt: "This was a solo class project for Advanced Rendering Techniques. In this class I built a raytracing image renderer. It parses as input a subset of the POV-Ray scene description language and renders the scene. The rendering equation uses a Cook-Torrance BDRF and accounts for reflection, refraction, occulsive shading, Fresnel's law, and Beer's law. Planes, triangles, spheres, and boxes are all suppported and can use matrix transformations. Multiple lights are supported and a spatial data structure is used to cut down on ray-object intersection checks. Global Illumination is achieved through Monte-Carlo samlpling and the renderer supports super sampling anti-aliasing. Finally gravity is implemented into the scene along with sphere-plane collision physics, to render multilple successive frames. The frames are passed to FFmpeg to be compressed into an output video. Each frame is rendered using CPU multiprocessing for a modest speedup." 
+    title: "Part 1: Key Frames, Quaternions, & Curves"
+    excerpt: "The first OpenGL program is a keyframe animated scene of a Tie-Fighter chasing the Millenium Falcon through a scene. The goal of this program was simply to learn about and use keyframe-animation, interpolation, quaternions, and splines. The program allows the user to fly around the space and record keyframes recording the camera's position and orientation. Three of these sets of keyframes were applied to the three scene models (2 ships, and the camera). Quaternions are used for smooth rotation interpolation. The spline and terrain rendering was provided by an instructor." 
 
-feature_row2:
-  - image_path: /assets/media/fortnite-disco/facial-animation.gif
+video_row2:
+  - video_path: /assets/media/fortnite-disco/facial-animation.webm
     alt: "Part 2"
-    title: "Part 2"
-    excerpt: "This was a solo class project for Advanced Rendering Techniques. In this class I built a raytracing image renderer. It parses as input a subset of the POV-Ray scene description language and renders the scene. The rendering equation uses a Cook-Torrance BDRF and accounts for reflection, refraction, occulsive shading, Fresnel's law, and Beer's law. Planes, triangles, spheres, and boxes are all suppported and can use matrix transformations. Multiple lights are supported and a spatial data structure is used to cut down on ray-object intersection checks. Global Illumination is achieved through Monte-Carlo samlpling and the renderer supports super sampling anti-aliasing. Finally gravity is implemented into the scene along with sphere-plane collision physics, to render multilple successive frames. The frames are passed to FFmpeg to be compressed into an output video. Each frame is rendered using CPU multiprocessing for a modest speedup." 
+    title: "Part 2: Facial Animation"
+    excerpt: "In my second OpenGL animation project, a wireframe face is animated to articulate some user provided text. The goal of this project was to gain some familiarity with animating the vertices of a model rather its position or orientation. There are 10 different variations of the basic face model made in blender to represent several mouthshapes corresponding to verious basic phonetic sounds.  The text is read at a constant rate and a rudimentary descion tree picks the current and next mouthshapes to animate between." 
 
-feature_row3:
-  - image_path: /assets/media/fortnite-disco/final-dance.webm
+video_row3:
+  - video_path: /assets/media/fortnite-disco/fortnite-disco.webm
+    video_caption: "Unmute for music."
     alt: "Part 2"
-    title: "Part 2"
-    excerpt: "This was a solo class project for Advanced Rendering Techniques. In this class I built a raytracing image renderer. It parses as input a subset of the POV-Ray scene description language and renders the scene. The rendering equation uses a Cook-Torrance BDRF and accounts for reflection, refraction, occulsive shading, Fresnel's law, and Beer's law. Planes, triangles, spheres, and boxes are all suppported and can use matrix transformations. Multiple lights are supported and a spatial data structure is used to cut down on ray-object intersection checks. Global Illumination is achieved through Monte-Carlo samlpling and the renderer supports super sampling anti-aliasing. Finally gravity is implemented into the scene along with sphere-plane collision physics, to render multilple successive frames. The frames are passed to FFmpeg to be compressed into an output video. Each frame is rendered using CPU multiprocessing for a modest speedup." 
+    title: "Part 3: Character Animation & Animation Blending"
+    excerpt: "In the final part of the class I was ready to tackle the initial goal and create a Fortnite disco. The first challenge in doing this was extracting the models and animations from the encrypted Fortnite game files, thankfully decryption keys gathered from a memory dump of the runnig game were availble from many anonymous sources online. The next step was converting the skeletons and their animations to the autodesk FBX format. The FBX-SDK was used to read FBX animation files into a skeleton (bone-tree) data structure; this conversion functinality was provided by the instructor. Each skeleton has 2 idle animations, a forward and backward walking animation, and 12 dance animations. Funtionality is provided for rendering the skeleton while interpoalting the aniamtions from Idle to Walking and back to Idle and from Idle to Dancing and back to Idle. This is just about everything needed to realize the initial goal; however, the two person dance off became a single person performance due to time constraints. Also the rendering of the character models were abandoned in favor of rendering the skeleton so that model skinning wouldn't have to be accounted for. In the final scene, the character walks up, strikes his idle pose, then goes through each of his dances a few times, blending into and out of idle between each." 
 
 
 ---
-
-{% include feature_row id="feature_row1" type="left" %}
-{% include feature_row id="feature_row2" type="right" %}
-{% include feature_row id="feature_row3" type="left" %}
+Fortnite Disco was my final project for a 3D animation course. The initial goal of the project was to make a disco scene where two 3D characters compete in a dance off. I intended to use models and the animations from the unreal engine game “Fortnite”. This ended up being a bit too ambitious of a goal, but I learned a lot about animation along the way.
 
 
-<div class="myvideo">
-   <video  style="display:block; width:50%; height:auto;" autoplay="true" muted="true" controls loop="loop">
-       <source src="/assets/media/fortnite-disco/final-dance.webm"  type="video/webm"/>
-   </video>
-</div>
+{% include video_row id="video_row1" type="left" %}
+{% include video_row id="video_row2" type="left" %}
+{% include video_row id="video_row3" type="left" %}
 
-<a href="https://github.com/HBot106/simple-pbr-raytracer" class="btn btn--success btn--x-large">Download Source</a>
-
-{% include video id="g28PMC0zV9s" provider="youtube" %}
-
-![pbr1](/assets/media/raytracer/pbr-1.png)
 
