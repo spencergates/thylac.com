@@ -27,7 +27,9 @@ feature_row1:
 
 <a href="https://github.com/HBot106/simple-pbr-raytracer" class="btn btn--success btn--x-large">Download Source</a>
 
-{% include video id="g28PMC0zV9s" provider="youtube" %}
+<video  style="display:block; width:100%; height:auto;" autoplay="true" muted="true" controls loop="loop">
+    <source src="/assets/media/raytracer/simple-pbr-raytracer.webm"  type="video/webm"/>
+</video>
 
 ![pbr1](/assets/media/raytracer/pbr-1.png)
 

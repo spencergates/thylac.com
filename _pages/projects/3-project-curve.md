@@ -63,7 +63,9 @@ feature_row2:
 <a href="/assets/files/curve-builds/curve-windows.zip" class="btn btn--info btn--x-large">Download Windows Executable</a>
 <a href="/assets/files/curve-builds/curve-macosx.zip" class="btn btn--info btn--x-large">Download MacOS Executable</a>
 
-{% include video id="ChNajW78EFg" provider="youtube" %}
+<video  style="display:block; width:100%; height:auto;" autoplay="true" muted="true" controls loop="loop">
+    <source src="/assets/media/project-curve/Curve_Demonstration.webm"  type="video/webm"/>
+</video>
 
 
 ![tie-dye](/assets/media/project-curve/marble2.png){: .align-left}
