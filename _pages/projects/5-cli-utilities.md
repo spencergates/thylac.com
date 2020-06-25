@@ -25,7 +25,7 @@ video_row1:
 video_row2:
   - video_path: /assets/media/cli-utils/simple-timer.webm
     title: "Timer Utility"
-    excerpt: "This simple utiltiy takes a number of seconds as input. It then displays a one line timer readout with in the form HH:MM:SS. The timers starts running but can be stopped; an ASCII twirler animated while the timer is running. Hours, minutes, and seconds can be added or removed. When the timer hits zero, the ASCII \"Bell\" notification is played, and the timer will begin counting into negative -HH:MM:SS." 
+    excerpt: "This simple utiltiy takes a number of seconds as input. It then displays a one line timer readout with in the form HH:MM:SS. The timers starts in a running state but can be stopped. An ASCII twirler animates while the timer is running. Hours, minutes, and seconds can be added or removed. When the timer hits zero, the ASCII \"Bell\" notification is played, and the timer will begin counting into negative -HH:MM:SS." 
     btn_label: "View Source"
     btn_class: "btn--info"
     url: "https://github.com/HBot106/simple-timer"
@@ -34,7 +34,7 @@ video_row2:
 video_row3:
   - video_path: /assets/media/cli-utils/simple-20-questions.webm
     title: "20 Questions Game"
-    excerpt: ""
+    excerpt: "This project is a \"20 Questions\" style game limited to yes/no questions. It uses a binary tree structure to store questions with answers at the leaves. This tree is serialized and desrialized into a text file so that the game can grow after multiple successive playthroughs. If the program guesses wrong, then it prompts the user to add the correct answer and a yes/no question to differentiate it from the program's guess. This new answer will be inserted into the tree for use in subsequent rounds."
     btn_label: "View Source"
     btn_class: "btn--info"
     url: "https://github.com/HBot106/simple-20-questions"
