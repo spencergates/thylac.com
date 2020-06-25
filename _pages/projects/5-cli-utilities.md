@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 layout: splash
 title: "Simple Unix Utilities"
 permalink: /unix-utils/
