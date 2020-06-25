@@ -14,7 +14,7 @@
             {% if f.video_caption %}
               <span class="archive__item-caption">{{ f.video_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
-            <video  style="display:block; width:100%; height:auto;" muted="true" controls loop="loop">
+            <video  style="display:block; width:100%; height:auto;" autoplay="true" muted="true" controls loop="loop">
                 <source src="{{ f.video_path | relative_url }}"  type="video/webm"/>
             </video>
           </div>

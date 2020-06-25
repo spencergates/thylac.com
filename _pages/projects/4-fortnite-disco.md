@@ -38,8 +38,8 @@ video_row3:
 Fortnite Disco was my final project for a 3D animation course. The initial goal of the project was to make a disco scene where two 3D characters compete in a dance off. I intended to use models and the animations from the unreal engine game “Fortnite”. This ended up being a bit too ambitious of a goal, but I learned a lot about animation along the way.
 
 
-{% include video_row id="video_row1" type="left" %}
-{% include video_row id="video_row2" type="left" %}
-{% include video_row id="video_row3" type="left" %}
+{% include video_row_autoplay id="video_row1" type="left" %}
+{% include video_row_autoplay id="video_row2" type="left" %}
+{% include video_row_autoplay id="video_row3" type="left" %}
 
 
