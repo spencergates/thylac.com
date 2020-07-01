@@ -1,5 +1,5 @@
 ---
-featured: false
+featured: true
 layout: splash
 title: "Simple Unix Utilities"
 permalink: /unix-utils/
@@ -10,7 +10,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/media/cli-utils/Tux-Banner.png
 
-excerpt: "Small CLI projects made while learning the C language, and systems programming.
+excerpt: "Small CLI projects made while learning the C language, systems programming, and networking.
 
 >Created by: Henry Luengas"
 
@@ -42,7 +42,7 @@ video_row3:
 video_row4:
   - video_path: /assets/media/cli-utils/simple-make.webm
     title: "Simple Make"
-    excerpt: ""
+    excerpt: "This project is a simplified version of the extremely usefull unix \"make\" utility, used for compiling multi-file C programs. It starts by opening a \"Smakefile\", and parsing it into a rule tree. The rules for each compilation target, are then processed recurively to compile the program. In this small demo \"example.c\" just takes an argument and calls the factorial function defined in \"fact.h\" and implemented in \"fact.c\". If the \"Smakefile\" is in the propper format the project will be compiled and any relavent errors will be reported."
     btn_label: "View Source"
     btn_class: "btn--info"
     url: "https://github.com/HBot106/simple-make"
@@ -50,7 +50,28 @@ video_row4:
 video_row5:
   - video_path: /assets/media/cli-utils/simple-unix-stats.webm
     title: "Unix System Stats"
-    excerpt: ""
+    excerpt: "This program, written for an Operating Systems class, logs system and process stats at a given interval for a supplied executable. In this example the \"glxgears\" demo is run for 5 seconds using a 1 second interval. The logged values are broken into five categories. The obtuse format is a result of the assignment requirements.
+    
+    
+    ### System Time Stats: \n
+    userTime, systemTime, idleTime, ioTime, interruptTime, softTime, interruptNum, contextNum, forkNum, runnableNum, and blockedNum 
+    
+    
+    ### System Memory Stats: \n
+    memTotal, memFree, memCached, swapCached, memActive, memInactive, 01minuteAvg, 05minuteAvg, and 15minuteAvg
+    
+    
+    ### System Disk Stats: \n
+    readsNum, sectorsReadNum, timeReading, writesNum, sectorsWrittenNum, and timeWriting
+    
+    
+    ### Running Process Time Stats: \n
+    executableName, state, minorFaultNum, majorFaultNum, userTime, systemTime, priority, nice, threadsNum, virtualMemSize, and residentSetSize
+
+    
+    ### Running Process Memory Stats: \n
+    totalSize, residentSetSize, sharedPagesNum, codeSize, and dataSize
+"
     btn_label: "View Source"
     btn_class: "btn--info"
     url: "https://github.com/HBot106/simple-unix-stat"
@@ -58,7 +79,7 @@ video_row5:
 video_row6:
   - video_path: /assets/media/cli-utils/simple-web-server.webm
     title: "Basic Web Server"
-    excerpt: ""
+    excerpt: "This program is an extremely basic and stripped down webserver. It responds only to HTTP/1.0 HEAD and GET querries. It gives error responses for the following scenarios: 400 Bad Request, 403 Permission Denied, 404 Not Found, 500 Internal Error, and 501 Not Implemented. For propperly formed HEAD requests, it responds with the Content-Type and Content-Length. GET requests function in one of two ways. A normal GET request will include the text of the requested file as the body of the response. A GET request to one of the binaries in the /cgi-like/ directory will run that binary and return the text of STDOUT as the body of the response."
     btn_label: "View Source"
     btn_class: "btn--info"
     url: "https://github.com/HBot106/simple-web-server"
@@ -66,7 +87,7 @@ video_row6:
 video_row7:
   - video_path: /assets/media/cli-utils/simple-pcap-inspector.webm
     title: "Packet Inspector"
-    excerpt: ""
+    excerpt: "This program will read and inspect packet data from, \".pcap\" files captured by other programs such as wireshark. For all packets, the Ethernet header info is printed. Next, either IP or ARP headers are read and printed. Finally, for any IP packets, the TCP, UDP, or ICMP header info gets read and printed. For TCP and UDP packets commonly used ports for services like HTTP, DNS, FTP, TELNET, SMTP, and POP3 are also checked and reported. TCP packet checksums are calculated and compared to the header value, to check for malfored or corrupt TCP packets as well."
     btn_label: "View Source"
     btn_class: "btn--info"
     url: "https://github.com/HBot106/pcap-packet-info"
@@ -74,7 +95,7 @@ video_row7:
 video_row8:
   - video_path: /assets/media/cli-utils/simple-chat.webm
     title: "Chat Server & Client"
-    excerpt: ""
+    excerpt: "This client-server chat program allows many users to sign on to a chat server, and send private messages between one another or public broadcasts to all users. It uses a custom built message packet, that is encapsulated and sent over the network as a TCP packet. Both the client and server can recieve, interpret, and send these packets to facilitate the chatting system. The client program interacts with the user, allowing them to \"sign-on\" with a handle and message other registered handles, or all connected users. The server recieves, checks the valididty of, and passes the messages to their intended recipeint(s). It also manages the registration and deregistration of user handles as well as providing clients with the list of available users. In this small demo, three clients register handles and demonstrate some of the chat features." 
     btn_label: "View Source"
     btn_class: "btn--info"
     url: "https://github.com/HBot106/simple-chat"
