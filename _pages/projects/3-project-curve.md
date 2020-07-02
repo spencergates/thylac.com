@@ -19,7 +19,7 @@ feature_row1:
   - image_path: /assets/media/project-curve/marble1.png
     alt: "Marble Runner"
     title: "Marble Runner"
-    excerpt: "This was a group project for the Real-Time 3D Computer Graphics Software course. In this class we came up with pitches for 3D games and then formed project groups around the most popular ideas. My pitch was Return to the Curve, a Marble Blast Gold clone where the protagaonost marbella has been transported to a strange flat world. Marbella must make it back to her nice curvy world by completeing the levels and avoiding evil cube-bots. Ultimately most of the plot was eventually lost in the rush to implement graphical features for the class, but in the end we ended up with a fun 3 level platformer."   
+    excerpt: "This was a group project for the Real-Time 3D Computer Graphics Software course. In this class we came up with pitches for 3D games and then formed project groups around the most popular ideas. My pitch was Return to the Curve, a Marble Blast Gold clone where the protagaonost Marbella has been transported to a strange flat world. Marbella must make it back to her nice curvy world by completeing the levels and avoiding evil Cube-Bots. Ultimately most of the plot was eventually lost in the rush to implement graphical features for the class, but in the end we ended up with a fun 3 level platformer."   
     
 feature_row2:
   - image_path: /assets/media/project-curve/marble4.png
@@ -64,7 +64,7 @@ feature_row2:
 <a href="/assets/files/curve-builds/curve-windows.zip" class="btn btn--info btn--x-large">Download Windows Executable</a>
 <a href="/assets/files/curve-builds/curve-macosx.zip" class="btn btn--info btn--x-large">Download MacOS Executable</a>
 
-<video  style="display:block; width:100%; height:auto;" autoplay="true" muted="true" controls loop="loop">
+<video style="display:block; width:100%; height:auto;" muted="true" controls loop="loop">
     <source src="/assets/media/project-curve/Curve_Demonstration.webm"  type="video/webm"/>
 </video>
 
