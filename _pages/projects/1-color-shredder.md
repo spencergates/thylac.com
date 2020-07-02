@@ -1,5 +1,6 @@
 ---
 featured: true
+button: "btn btn--primary btn--x-large"
 layout: splash
 title: "Color Shredder"
 permalink: /color-shredder/

@@ -17,8 +17,8 @@ intro:
 
 {% for post in site.pages %}
   {% if post.featured %}
-  <h1>{{post.description}}</h1>
-  <a href="{{post.url}}" class="btn btn--primary btn--x-large">{{post.title}}</a>
+  <h3>{{post.description}}</h3>
+  <a href="{{post.url}}" class="{{post.button}}">{{post.title}}</a>
   {% endif %}
 {% endfor %}
 

@@ -1,5 +1,6 @@
 ---
 featured: true
+button: "btn btn--primary btn--x-large"
 layout: splash
 title: "Fortnite Disco"
 permalink: /fortnite-disco/

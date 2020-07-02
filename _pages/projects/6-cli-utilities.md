@@ -1,9 +1,10 @@
 ---
 featured: true
+button: "btn btn--primary btn--x-large"
 layout: splash
 title: "Simple Unix Utilities"
 permalink: /unix-utils/
-description: "Simple CLI programs written in C to learn low-level systems programming."
+description: "Simple CLI programs written in C to learn low-level systems programming"
 
 header:
   overlay_color: "#000"
