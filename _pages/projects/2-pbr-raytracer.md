@@ -26,7 +26,7 @@ feature_row1:
 
 {% include feature_row id="feature_row1" type="left" %}
 
-<a href="https://github.com/HBot106/simple-pbr-raytracer" class="btn btn--success btn--x-large">Download Source</a>
+<a href="https://github.com/HBot106/simple-pbr-raytracer" class="btn btn--info btn--large">View Source</a>
 
 <video  style="display:block; width:100%; height:auto;" autoplay="true" muted="true" controls loop="loop">
     <source src="/assets/media/raytracer/simple-pbr-raytracer.webm"  type="video/webm"/>

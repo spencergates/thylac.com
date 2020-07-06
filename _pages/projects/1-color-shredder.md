@@ -25,7 +25,7 @@ feature_row1:
 
 {% include feature_row id="feature_row1" type="left" %}
 
-<a href="https://github.com/HBot106/color-shredder" class="btn btn--success btn--x-large">Download Source</a>
-<a href="/assets/documents/Tie_Dye_Pixel_Art_Generation.pdf" class="btn btn--warning btn--x-large">Download Report</a>
+<a href="https://github.com/HBot106/color-shredder" class="btn btn--success btn--large">View Source</a>
+<a href="/assets/documents/Tie_Dye_Pixel_Art_Generation.pdf" class="btn btn--warning btn--large">View Report</a>
 
 ![tie-dye](/assets/media/color-shredder/d500-q2-c8-opencl-multi.png)

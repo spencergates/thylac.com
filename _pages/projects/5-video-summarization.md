@@ -24,7 +24,7 @@ video_row1:
 video_row2:
   - video_path: /assets/media/video-summarization/Day_Two.webm
     title: "Object Detection: YOLO & OpenCV"
-    excerpt: "Any detected objects that moved significantly, are all overlayed in the summary clip so that the viewer recieves a highly condensed version of all the clips. People, vehicles, and about 90 other classes of objects can be detected using the YOLO object detection network that was pre-trained on the COCO dataset. Without a GPU for image detection, the tool was only able to process footage at a \"real-time\" rate while processing every fifth frame of video, making it only useful to the extent that computer time is less valuable than a human's. However, when paired with a powerful GPU or other specific neural network optimized hardware, the tool would be a legitimate timesaver for reviewing critical security camera footage.
+    excerpt: "Any detected objects that moved significantly, are all overlayed in the summary clip so that the viewer recieves a highly condensed version of all the clips. People, vehicles, and about 90 other classes of objects can be detected using the YOLO object detection network that was pre-trained on the COCO dataset. Without a GPU for image detection, the tool was only able to process footage at a *real-time* rate while processing every fifth frame of video, making it only useful to the extent that computer time is less valuable than a human's. However, when paired with a powerful GPU or other specific neural network optimized hardware, the tool would be a legitimate timesaver for reviewing critical security camera footage.
     
 
     We decided to use YOLOv3 because it produced very accurate results for the type of objects we cared about, namely people and vehicles, using poor quality cheap security camera footage. One unfortunate result of this is we did not recieve the valuable and difficult experience of training our own neural network. Most other groups focused on this aspect, whereas the majority of our project involved manipulating and tracking image data. This was mostly done using OpenCV, an open source computer vision and image proccessing library." 
@@ -42,7 +42,7 @@ The proccess runs as five stage a pipeline:
 This stage runs YOLOv3 on every 5 input frames, bounding boxes are stored for detections with confidence levels over 30%. This bounding box data is serialized into a file so that future stages can be processed without having to re-run the detector. 
 
 ### Track Stage: \n
-The previous stage generates a large array that contains the detections for many frames of the input video. The track stage passes this information into an open source object tracker. This object tracker computes and interpolates \"tracks\". Tracks are made up of unique objects and their respective paths through the frames in which they appear.
+The previous stage generates a large array that contains the detections for many frames of the input video. The track stage passes this information into an open source object tracker. This object tracker computes and interpolates *tracks*. Tracks are made up of unique objects and their respective paths through the frames in which they appear.
 
 ### Filter Motion Stage: \n
 This stage filters down the tracks above to only tracks that move more than a certain threshold. This keeps static detected objects out of the final summarization.
