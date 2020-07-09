@@ -25,7 +25,7 @@ video_row2:
   - video_path: /assets/media/fortnite-disco/facial-animation.webm
     alt: "Part 2"
     title: "Facial Animation"
-    excerpt: "In my second OpenGL animation project, a wireframe face is animated to articulate some user provided text. The goal of this project was to gain some familiarity with animating the vertices of a model rather its position or orientation. There are 10 different variations of the basic face model made in Blender to represent several mouthshapes corresponding to verious basic phonetic sounds.  The text is read at a constant rate and a rudimentary decision tree picks the current and next mouthshapes to animate between." 
+    excerpt: "In my second OpenGL animation project, a wireframe face is animated to articulate some user provided text. The goal of this project was to gain some familiarity with animating the vertices of a model rather its position or orientation. There are 10 different variations of the basic face model made in Blender to represent several mouth-shapes corresponding to various basic phonetic sounds.  The text is read at a constant rate and a rudimentary decision tree picks the current and next mouth-shapes to animate between." 
 
 video_row3:
   - video_path: /assets/media/fortnite-disco/fortnite-disco.webm

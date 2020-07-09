@@ -18,7 +18,7 @@ excerpt: "A 3D platformer game inspired by Marble Blast Gold. Navigate a marble 
 feature_row1:
   - image_path: /assets/media/project-curve/marble1.png
     title: "Marble Runner"
-    excerpt: "This was a group project for the Real-Time 3D Computer Graphics Software course. In this class we came up with pitches for 3D games and then formed project groups around the most popular ideas. My pitch was Return to the Curve, a Marble Blast Gold clone where the protagaonost Marbella has been transported to a strange flat world. Marbella must make it back to her nice curvy world by completeing the levels and avoiding evil Cube-Bots. Ultimately most of the plot was eventually lost in the rush to implement graphical features for the class, but in the end we ended up with a fun 3 level platformer."   
+    excerpt: "This was a group project for the Real-Time 3D Computer Graphics Software course. In this class we came up with pitches for 3D games and then formed project groups around the most popular ideas. My pitch was Return to the Curve, a Marble Blast Gold clone where the protagonist Marbella has been transported to a strange flat world. Marbella must make it back to her nice curvy world by completing the levels and avoiding evil Cube-Bots. Ultimately most of the plot was eventually lost in the rush to implement graphical features for the class, but in the end we ended up with a fun 3 level platformer."   
     
 feature_row2:
   - image_path: /assets/media/project-curve/marble4.png
@@ -51,7 +51,7 @@ feature_row2:
     
     * YAML level & settings loader
     
-    * Platform support for Windows, Mac OSX, and Linux"    
+    * Platform support for Windows, MacOS, and Linux"    
 
 ---
 
