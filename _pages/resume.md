@@ -18,8 +18,8 @@ Bachelor of Science in **Computer Science**, graduation: June 2020
 
 ## Skills
 * **Languages:** C, C++, Python, Rust, Java, SAS, Racket
-* **Systems & Frameworks:** Unix, Linux Kernel, OpenGL, Unity3D, KVM, Docker, SQL, Spark, Hadoop
-* **Network Infrastructure:** Routing, Switching, Network Attached Storage, POE, Port Testing
+* **Systems & Frameworks:** Unix, OpenGL, OpenCL, Unity3D, KVM, Docker, SQL, Spark, Hadoop
+* **Network Infrastructure:** Routing, Switching, Network Attached Storage, POE, Cabling
 
 ## Work Experience
 * **Cal Poly Student Affairs Technology** - Network Technician (April 2016 - June 2020)
