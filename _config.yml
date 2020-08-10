@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : "Henry Luengas"
-  avatar : "/assets/media/Headshots/hluengasHeadshotIvy2-cropped.png"
+  avatar : "/assets/media/Headshots/hluengasHeadshotIvy2-cropped.jpg"
   bio    : "I am a recent graduate from Cal Poly with a degree in Computer Science, seeking both Software and Systems Engineering roles. I have experience in systems programming, graphics & rendering, computer networking, software development, and technical support for Linux, Windows, and MacOS."
   links:
     - label:  "GitHub"
