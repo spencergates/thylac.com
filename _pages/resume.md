@@ -22,9 +22,9 @@ Bachelor of Science in **Computer Science**, graduation: June 2020
 * **Network Infrastructure:** Routing, Switching, Network Attached Storage, POE, Cabling
 
 ## Work Experience
-* **Cal Poly Student Affairs Technology** - Network Technician (April 2016 - June 2020)
+* **Cal Poly Student Affairs Technology** - IT Specialist (April 2016 - June 2020)
     * Diagnosed, and resolved issues with the campus housing network and servers.
-    * Provided broad technical support (software & hardware) for users of the campus network.
+    * Provided broad technical support (software & hardware) for Windows and MacOS users of the campus network.
     * Maintained an internal website used to provide support to students in housing.
 
 * **UHV Technologies** - Intern (May 2015 – Sep 2015)
