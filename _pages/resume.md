@@ -10,7 +10,7 @@ permalink: /resume/
 <a href="mailto:contact@luengas.io" class="btn btn--info btn--primary">Email</a>
 <a href="https://www.linkedin.com/in/henry-luengas" class="btn btn--info btn--primary">LinkedIn</a>
 <a href="https://github.com/hbot106" class="btn btn--info btn--primary">Github</a>
-<a href="/assets/documents/HenryLuengas_Resume.pdf" class="btn btn--warning btn--primary">Resume PDF</a>
+<a href="/assets/documents/HenryLuengas-Resume.pdf" class="btn btn--warning btn--primary">Resume PDF</a>
 
 ## Education
 California Polytechnic State University San Luis Obispo **(Cal Poly) - College of Engineering:**
