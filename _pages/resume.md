@@ -46,4 +46,4 @@ Bachelor of Science in **Computer Science**, graduation: June 2020
 
 * **AI Video Summarization Tool:** Worked with a group to create a utility that takes large amounts of security camera video and applies AI image recognition to pare down the footage into a short summary.
 
-* **System Building & Home Networking:** Built a home virtualization server to use as a NAS, DNS resolver, security gateway, Docker host, batch renderer, and game server.
+* **System Building & Networking:** Built a home virtualization server to use as a NAS, DNS resolver, security gateway, Docker host, batch renderer, and game server.
