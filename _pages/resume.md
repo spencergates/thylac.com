@@ -17,8 +17,8 @@ California Polytechnic State University San Luis Obispo **(Cal Poly) - College o
 Bachelor of Science in **Computer Science**, graduation: June 2020
 
 ## Skills
-* **Languages:** C, C++, Python, Rust, Java, SAS, Racket
-* **Systems & Frameworks:** Unix, OpenGL, OpenCL, Unity3D, KVM, Docker, SQL, Spark, Hadoop
+* **Languages:** C, C++, Python, Rust, Java, SAS
+* **Systems & Frameworks:** Unix, OpenGL, OpenCL, Unity3D, KVM, Docker, SQL
 * **Network Infrastructure:** Routing, Switching, Network Attached Storage, POE, Cabling
 
 ## Work Experience
