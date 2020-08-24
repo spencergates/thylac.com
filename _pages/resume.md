@@ -27,7 +27,7 @@ Bachelor of Science in **Computer Science**, graduation: June 2020
     * Provided technical support (software & hardware) for users of the campus network.
     * Maintained an internal website used to provide support to students in housing.
 
-* **UHV Technologies** - Intern (May 2015 – Sep 2015)
+* **UHV Technologies** - Engineering Intern (May 2015 – Sep 2015)
     * Assisted in the design process, digitizing and modeling engineering plans with CAD.
     * Prototyped a linear encoder measurement device (hardware and software).
 
@@ -46,4 +46,4 @@ Bachelor of Science in **Computer Science**, graduation: June 2020
 
 * **AI Video Summarization Tool:** Worked with a group to create a utility that takes large amounts of security camera video and applies AI image recognition to pare down the footage into a short summary.
 
-* **System Building & Networking:** Built a home virtualization server to use as a NAS, DNS resolver, security gateway, Docker host, batch renderer, and game server.
+* **System Building & Networking:** Built a home virtualization server to use as a NAS, DNS resolver, security gateway, Docker host, batch renderer, PXE-boot host, and game server.
