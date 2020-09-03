@@ -44,6 +44,10 @@ Bachelor of Science in **Computer Science**, graduation: June 2020
 
 * **Network Packet Analyzer:** Wrote a C program that uses the NPCAP library to inspect packets functioning like a basic version of Wireshark.
 
+* **3D Marble Run Platformer Game:** Worked with a group to create a game from scratch in C++ andOpenGL with physics simulation, a spatial data structure, PBR shading, shadow-mapping, environmentmapping, view frustum culling, positional audio, and an adjustable third person camera.
+
 * **AI Video Summarization Tool:** Worked with a group to create a utility that takes large amounts of security camera video and applies AI image recognition to pare down the footage into a short summary.
+
+* **Unix System Stats Logger:** Wrote a CLI program in C to query unix system files for system and runningprocess stats to be logged periodically to a file.
 
 * **System Building & Networking:** Built a home virtualization server to use as a NAS, DNS resolver, security gateway, Docker host, batch renderer, PXE-boot host, and game server.
