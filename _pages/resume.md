@@ -25,8 +25,8 @@ Bachelor of Science in **Computer Science**, graduation: June 2020
 
 
 # **Skills**
-* **Languages:** C, C++, Python, Rust, Java, SAS
-* **Systems & Frameworks:** Unix, OpenGL, OpenCL, Unity3D, KVM, Docker, SQL
+* **Programming Languages:** C, C++, Python, Julia, Rust, Java, R, SAS
+* **Systems & Frameworks:** Linux/Unix, OpenGL, OpenCL, Unity3D, KVM, Docker, SQL
 * **Network Infrastructure:** Routing, Switching, Network Attached Storage, POE, Cabling
 
 
