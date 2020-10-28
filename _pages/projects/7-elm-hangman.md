@@ -9,14 +9,14 @@ description: "Hangman Web App Written in Elm"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/media/hangman/banner.png
+  overlay_image: /assets/media/hangman/hangman_banner.png
 
 excerpt: "Hangman Web App.
 
 >Created by: Henry Luengas"
 
 feature_row1:
-  - image_path: /assets/media/hangman/hangman_demo2.jpg
+  - image_path: /assets/media/hangman/hangman.jpg
     title: "Hangman Web App Written in Elm"
     excerpt: "While working on my current project of learning web development and porting my color-shredder to a web app, I started learning Elm.
     Elm is a purely functional programming language that compiles to Javascript and is used to create high performance scalable web applications.
